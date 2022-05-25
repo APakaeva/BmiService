@@ -1,6 +1,6 @@
 public class BmiService {
     public double calculate(double weight, double height) {
-        double IMT = weight / ((height/100)*(height/100));
+        double IMT = weight / ((height / 100) * (height / 100));
         return IMT;
     }
 }
